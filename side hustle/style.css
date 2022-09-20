@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    display: flex;
+    background-color: rgba(180, 180, 180, 0.74);
+    height: 100%;
+    
+}
+.forminput{
+    display: inline-block;
+    padding: 20px;
+width: 60%;
+float: left;
+height: 650px;
+}
+.card-body{
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+
+.card{
+    background-color: #fff;
+    border: blue;
+    align-items: center;
+    margin-top: 20px;
+    max-width: 700px;
+
+}
+
+.user-details{
+padding: 20px;
+display: flex;
+flex-wrap: wrap;
+}
+.user-details .input-box{
+    width: 50%;
+    
+    
+}
+
+.user-details .input-box input{
+    height: 25px;
+    width: 85%;
+    justify-content: space-between;
+    border: 1cm #ffff;
+    border-radius: 5%;
+    
+}
+
+.btn{
+    margin-top: 20px;
+    width: 38%;
+    height: 35px;
+    border-radius: 5%;
+    font-size: medium;
+    background-color: #596D48 ;
+    cursor: pointer;
+}
+.none p{
+    text-decoration: none;
+}
+.home img{
+height: 200px;
+
+}
+.home{
+   width: 40%; 
+    background-image: url(./green.jpg) ;
+    padding-bottom: 90px;
+    padding-right: 5px;
+    
+}
+.home .int{
+    background-color: transparent;
+}
+.none .login {
+color: #596D48;
+text-decoration: none;
+}
+a{
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 600;
+}
+.home #int {
+    font-weight: 800;
+    color:#fff;
+padding-top: 50px;
+width: 100px;
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+background-color: rgba(0, 0,0, .5) ;
+position: fixed;
+width: 37.9%;
+height:16vh;
+box-sizing: border-box;
+margin-top: 90px;
+
+
+}
+.card h3{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.home #text{
+font-weight: 800;
+color: #fff;
+text-transform: uppercase;
+float: right;
+padding-right: 80px;
+font-size:70px ;
+
+font-family: 'Hanalei Fill', cursive;
+}
+
+ #profile{
+    padding-left: 60px;
+    height: 100px;
+    padding-bottom: 100px;
+    
+    position: fixed;
+}
+.home #int{
+padding-bottom: 100px;
+}
